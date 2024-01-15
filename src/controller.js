@@ -41,7 +41,7 @@ const sortElements = (req,res) => {
     const quantityDiff = b.quantidade - a.quantidade;
     if(quantityDiff !==0) return quantityDiff;
 
-    const conditions = { DIN: 0, '30': 1, R60: 2, '90': 3, '120': 4 };
+    const conditions = { 'DIN': 0, '30': 1, 'R60': 2, '90': 3, '120': 4 };
     const conditionDiff = conditions[a.condicao_pagamento] - conditions[b.condicao_pagamento];
     if (conditionDiff !== 0) return conditionDiff;
 

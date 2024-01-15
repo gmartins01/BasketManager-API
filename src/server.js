@@ -12,7 +12,7 @@ const options = {
   definition: {
     openapi: "3.0.0",
     info: {
-      title: "Basket Manager API",
+      title: "Basket Management API",
       version: "1.0.0"
     },
   },
